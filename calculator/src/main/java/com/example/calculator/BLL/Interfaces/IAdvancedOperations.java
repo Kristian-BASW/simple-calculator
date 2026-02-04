@@ -15,5 +15,8 @@ public interface IAdvancedOperations {
      * @param a is the radicand
      */
     double squareRoot(double a) throws InvalidParameterException;
+    /**
+     * Takes the factorial number of a
+     */
     long factorial(int a) throws InvalidParameterException;
 }
