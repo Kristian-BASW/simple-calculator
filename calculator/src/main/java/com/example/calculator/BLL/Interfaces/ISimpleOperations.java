@@ -21,7 +21,7 @@ public interface ISimpleOperations {
     double multiply(double a, double b);
     /**
      * Divides the two params
-     * Divides the param a with the param b
+     * Divides the param b with the param a
      */
     double divide(double a, double b) throws InvalidParameterException;
 
